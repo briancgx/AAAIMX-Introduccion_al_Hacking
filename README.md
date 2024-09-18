@@ -82,7 +82,7 @@ john /ruta/a/archivo_hashes
 6. SecLists
 Una colección de listas de palabras para usar en fuerza bruta, diccionarios de nombres de usuario, contraseñas, directorios, subdominios y más.
 ```bash
-sudo apt-get install seclists
+git clone https://github.com/danielmiessler/SecLists
 ```
 Uso: Las listas se almacenarán en /usr/share/seclists/. Puedes usarlas en cualquier ataque de fuerza bruta o reconocimiento:
 ```bash
