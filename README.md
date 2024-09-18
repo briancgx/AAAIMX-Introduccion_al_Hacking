@@ -18,7 +18,12 @@ Este curso tiene como objetivo proporcionar los fundamentos esenciales para inic
 - Básicos de BurpSuite y hacking web (XSS - Cross Site Scripting).
 - Final: Reconocimiento y explotación de una máquina vulnerable.
 
-## Herramientas
+## Requisitos fundamentales
+- Alguna distribución de linux instalada (Kali linux, Parrot u otra de preferencia enfocada al hacking)
+Nota: En el caso de no contar con Kali instalado, se adjunta un video para su instalación.
+[Instalación de Kali](https://www.tiktok.com/@br14ncgx/video/7280082143114497285?is_from_webapp=1&sender_device=pc&web_id=7370770948541564422)
+
+## Herramientas usadas en el curso
 1. TheHarvester
 Herramienta para OSINT, utilizada para recopilar correos electrónicos, subdominios, direcciones IP y más.
 **Instalación**
@@ -67,7 +72,6 @@ hydra -l usuario -P /ruta/a/lista_de_contraseñas ftp://192.168.1.100
 Herramienta de cracking de contraseñas.
 Instalación:
 ```bash
-Copiar código
 sudo apt-get install john
 ```
 Uso:
@@ -84,3 +88,5 @@ Uso: Las listas se almacenarán en /usr/share/seclists/. Puedes usarlas en cualq
 ```bash
 gobuster dir -u http://example.com -w /usr/share/seclists/Discovery/Web-Content/common.txt
 ```
+
+NOTA: Se usarán más herramientas además de las que hay aquí, pero ya vienen instaladas con kali, asi que no hay problema.
