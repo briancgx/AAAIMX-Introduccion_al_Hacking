@@ -6,13 +6,13 @@ Este curso tiene como objetivo proporcionar los fundamentos esenciales para inic
 ## Temas
 - Comandos básicos de Linux.
 - Direcciones IPv4, IPv6 y MAC.
-- Modelo OSI.
 - TCP y UDP (Protocolos más conocidos).
-- OSINT (TheHarvester).
 - Google Hacking.
-- Ingeniería social (Phishing).
+- Modelo OSI.
 - Reconocimiento con Nmap.
 - Descubrimiento de hosts en una red local.
+- OSINT (TheHarvester).
+- Ingeniería social (Phishing).
 - Fuzzing y Fuerza Bruta.
 - Contraseñas Default y Cracking (Jhon The Ripper, SSH y FTP).
 - Básicos de BurpSuite y hacking web (XSS - Cross Site Scripting).
